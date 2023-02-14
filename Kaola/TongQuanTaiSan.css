@@ -1,0 +1,112 @@
+.ndt-customize-body {
+  margin: 0 !important;
+  background: #E5E5E5;
+  padding: 60px 10px 15px 10px !important; }
+
+.overview-property-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #EEEFF5; }
+  .overview-property-container .charts {
+    height: 390px;
+    width: 100%;
+    display: flex; }
+    .overview-property-container .charts .content-left-c {
+      padding-right: 10px;
+      width: 40%; }
+      .overview-property-container .charts .content-left-c .phan-bo-chart-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        background-color: #fff;
+        margin-right: 10px; }
+        .overview-property-container .charts .content-left-c .phan-bo-chart-container .title-chart {
+          height: 40px;
+          font-size: 20px;
+          padding: 10px 0;
+          font-weight: 600; }
+        .overview-property-container .charts .content-left-c .phan-bo-chart-container .content-chart {
+          height: calc(100% - 40px);
+          width: 100%;
+          display: flex; }
+          .overview-property-container .charts .content-left-c .phan-bo-chart-container .content-chart .tqts-text {
+            width: 40%;
+            height: 100%;
+            padding: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center; }
+            .overview-property-container .charts .content-left-c .phan-bo-chart-container .content-chart .tqts-text .text-child {
+              display: flex;
+              height: 15px;
+              margin: 10px 0; }
+              .overview-property-container .charts .content-left-c .phan-bo-chart-container .content-chart .tqts-text .text-child .color-div {
+                width: 15%;
+                background: #DFAE00; }
+    .overview-property-container .charts .content-right-c {
+      width: 60%; }
+      .overview-property-container .charts .content-right-c .stock-chart-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        background-color: #fff; }
+        .overview-property-container .charts .content-right-c .stock-chart-container .stock-chart-header {
+          height: 40px; }
+          .overview-property-container .charts .content-right-c .stock-chart-container .stock-chart-header .title-chart {
+            height: 40px;
+            font-size: 20px;
+            padding: 10px 0;
+            font-weight: 600; }
+        .overview-property-container .charts .content-right-c .stock-chart-container .stock-chart-content {
+          height: calc(100% - 80px);
+          width: 100% !important; }
+        .overview-property-container .charts .content-right-c .stock-chart-container .stock-chart-footer {
+          height: 40px; }
+  .overview-property-container .quy-mo {
+    margin-top: 20px;
+    height: 470px;
+    width: 100%; }
+    .overview-property-container .quy-mo .table-quy-mo-container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      padding: 0 10px;
+      background-color: #fff; }
+      .overview-property-container .quy-mo .table-quy-mo-container .table-quy-mo-header {
+        height: 60px;
+        width: 100%;
+        font-size: 20px;
+        padding: 10px 0;
+        font-weight: 600; }
+      .overview-property-container .quy-mo .table-quy-mo-container .table-quy-mo-content {
+        width: 100%;
+        max-height: 420px; }
+  .overview-property-container .dm-uy-thac {
+    margin-top: 20px;
+    height: 470px;
+    width: 100%; }
+    .overview-property-container .dm-uy-thac .table-dm-uy-thac-container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      padding: 0 10px;
+      background-color: #fff; }
+      .overview-property-container .dm-uy-thac .table-dm-uy-thac-container .table-dm-uy-thac-header {
+        height: 60px;
+        width: 100%;
+        font-size: 20px;
+        padding: 10px 0;
+        font-weight: 600; }
+      .overview-property-container .dm-uy-thac .table-dm-uy-thac-container .table-dm-uy-thac-content {
+        width: 100%;
+        max-height: 420px; }
+
+/*# sourceMappingURL=TongQuanTaiSan.css.map */

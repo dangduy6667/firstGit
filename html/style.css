@@ -1,0 +1,98 @@
+/* reset margin, padding */
+body {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.red {
+    border: 1px solid red;
+}
+
+.green {
+    border: 1px solid green;
+}
+
+.banner {
+
+    height: 500px;
+    width: 100%;
+    background: url("./download.jpg") center center;
+    padding: 40px;
+}
+
+.about-sign-in {
+    height: 80px;
+    width: 100%;
+    background-color: aliceblue;
+    text-align: right;
+}
+
+.about {
+    margin-right: 20px;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px;
+    text-decoration: none;
+
+}
+
+.signin {
+    margin-right: 20px;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px;
+    text-decoration: none;
+
+    border-radius: 20px;
+
+    padding: 15px 10px;
+}
+
+.logo {
+    background: url("./bosss.png ") center center no-repeat;
+    margin-top: 40px;
+    height: 200px;
+    width: 200px;
+
+}
+
+.text {
+    text-align: center;
+}
+
+.btn-start-now {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid green;
+    margin-top: 20px;
+
+    cursor: pointer;
+}
+
+.content-center {
+    margin-top: 20px;
+
+    height: 50px;
+    border: 1px solid red;
+}
+
+.left,
+.right,
+.center {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+}
+
+
+span {
+    display: block;
+}
+
+
+.banner .btn-start-now button {}
